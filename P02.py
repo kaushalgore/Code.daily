@@ -10,6 +10,7 @@ else:
 '''
 #Good Practice to add exception handling for invalid input (like strings).
 #handling for invalid input (like strings). 
+
 #code starts here
 try:
     num=int(input("Enter a number:"))
