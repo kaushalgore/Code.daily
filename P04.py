@@ -12,7 +12,7 @@
 # 11. Write a Python program to find the sum of N natural numbers using numpy module.
 # 12. Write a Python program to find the sum of N natural numbers using pandas module.
 
-#n=int(input("enter number to find sum upto n:"))
+num=int(input("enter number to find sum upto n:"))
 # def recursive_sum(n):
 #     # Base case: if n is 1, return 1
 #     if n == 1:
@@ -22,14 +22,12 @@
 
 # print(recursive_sum(num))  # Outputs 55
 
-n = int(input("Enter number to find sum up to n: "))
-
-def recursion_sum(num):
-    if num == 1:
+def recusrion_sum(num):
+    if num==1:
         return 1
-    return num + recursion_sum(num - 1)
+    return 1+recusrion_sum(num-1)
+print(recusrion_sum())
 
-print(recursion_sum(n))
 
 
 
